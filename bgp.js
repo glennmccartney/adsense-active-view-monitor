@@ -20,6 +20,7 @@ chrome.webRequest.onBeforeRequest.addListener(function(details)
 				}	
 				var tab = tabs[0];
 				
+				//If the current URL can be found
 				if (tab)
 				{
 					CurrentURL=tab.url;
