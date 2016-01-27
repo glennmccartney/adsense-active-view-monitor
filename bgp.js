@@ -59,6 +59,7 @@ chrome.webRequest.onBeforeRequest.addListener(function(details)
 	},{urls: ["<all_urls>"]
 });
 						
+//Generate a Random Integer						
 function getRandomInt(min, max) 
 {
     return Math.floor(Math.random() * (max - min + 1)) + min;
